@@ -7965,8 +7965,8 @@
 		(uuid "5a8736b1-343e-45bd-8d86-1788a79d2a42")
 	)
 	(gr_circle
-		(center 200.5 -3.5)
-		(end 203 -3.5)
+		(center 211.5 -3.5)
+		(end 214 -3.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -7976,8 +7976,8 @@
 		(uuid "874677b7-39f9-44aa-a3da-e67d54fdcfd4")
 	)
 	(gr_circle
-		(center 211.5 -3.5)
-		(end 215.5 -3.5)
+		(center 222.5 -3.5)
+		(end 226.5 -3.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -7987,8 +7987,8 @@
 		(uuid "e9858e8c-e201-4288-9a8d-5a53f304b98e")
 	)
 	(gr_circle
-		(center 226 -3.5)
-		(end 231 -3.5)
+		(center 237 -3.5)
+		(end 242 -3.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -7998,8 +7998,8 @@
 		(uuid "a7d56a84-deca-43ef-a202-7f09831ded51")
 	)
 	(gr_circle
-		(center 247 -3.5)
-		(end 254.5 -3.5)
+		(center 256.5 -3.5)
+		(end 264 -3.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -8007,17 +8007,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "fd0f24c0-cf53-477b-b49c-5bdd4614b9f0")
-	)
-	(gr_circle
-		(center 275 -3.5)
-		(end 285 -3.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "7c977db8-6783-40e7-8b1d-e370347ef67f")
 	)
 	(gr_text " 0\n"
 		(at 10 -15 0)
@@ -8547,6 +8536,19 @@
 			(justify right bottom)
 		)
 	)
+	(gr_text "Measure Zero"
+		(at 267 -3.5 0)
+		(layer "F.Cu")
+		(uuid "193bf5e4-b7cf-4871-a0aa-e4de3ff06fcf")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "1mm"
 		(at 142 -11 0)
 		(layer "F.SilkS")
@@ -8728,7 +8730,7 @@
 		)
 	)
 	(gr_text "5mm"
-		(at 204.5 -6.5 0)
+		(at 215.5 -6.5 0)
 		(layer "F.SilkS")
 		(uuid "28f4b6bc-4b27-49ce-b338-7f0fb5bc108b")
 		(effects
@@ -8740,7 +8742,7 @@
 		)
 	)
 	(gr_text "8mm"
-		(at 216.5 -7.5 0)
+		(at 227.5 -7.5 0)
 		(layer "F.SilkS")
 		(uuid "90524ae9-fbbc-4724-8fc9-b14b7494c969")
 		(effects
@@ -8752,7 +8754,7 @@
 		)
 	)
 	(gr_text "10mm"
-		(at 231 -9 0)
+		(at 242 -9 0)
 		(layer "F.SilkS")
 		(uuid "1ce7d6f7-86a3-4330-8c2b-90ed8f04c4ad")
 		(effects
@@ -8764,21 +8766,9 @@
 		)
 	)
 	(gr_text "15mm"
-		(at 255 -10.5 0)
+		(at 264.5 -10.5 0)
 		(layer "F.SilkS")
 		(uuid "d682c57c-7bab-4bd0-ab2e-9fe1b702a1c7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify top)
-		)
-	)
-	(gr_text "20mm"
-		(at 287 -9.5 0)
-		(layer "F.SilkS")
-		(uuid "40cffe6b-41c2-4a65-bf66-fb07c676ac80")
 		(effects
 			(font
 				(size 1 1)
@@ -8834,6 +8824,18 @@
 				(size 1 1)
 				(thickness 0.2)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Measure Zero"
+		(at 267 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "0aa1cc57-2732-45d2-adc7-3864fe6518a0")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.4)
 			)
 			(justify left bottom)
 		)
