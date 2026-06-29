@@ -90,7 +90,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -1062,9 +1061,9 @@
 	(footprint "lcsc:USB-A-TH_10.0QHHTZB6.3"
 		(layer "F.Cu")
 		(uuid "1b468be7-198e-4c35-b963-9106de775f00")
-		(at 27 -5.89 180)
+		(at 26.45 -5.89 180)
 		(property "Reference" "USB A"
-			(at 0 -7.11 0)
+			(at 6.95 -4.39 0)
 			(layer "F.SilkS")
 			(uuid "6a0a7343-ff1c-4efa-9776-e9a226c71180")
 			(effects
@@ -1116,6 +1115,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1650,6 +1650,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3113,6 +3114,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4645,76 +4647,6 @@
 		(layer "F.Cu")
 		(uuid "56329128-3bc5-4aa7-94f5-0a3b0340945e")
 	)
-	(gr_rect
-		(start 33 -1.5)
-		(end 58 -1.4)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(net "unconnected-(USB2-VCC-Pad1)")
-		(uuid "9451c38a-bf9e-4bb9-b813-25f599cf9304")
-	)
-	(gr_rect
-		(start 33 -0.85)
-		(end 58 -0.65)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(net "unconnected-(USB2-VCC-Pad1)")
-		(uuid "52931680-c256-41b3-b071-8981def88285")
-	)
-	(gr_rect
-		(start 33 0.15)
-		(end 58 0.45)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "376bed3d-a8c1-46e6-997a-d21fa5e5e807")
-	)
-	(gr_rect
-		(start 33 1)
-		(end 58 1.5)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "d8ea69b4-6200-424a-a1b0-9c4c33db5fe2")
-	)
-	(gr_rect
-		(start 33 2)
-		(end 58 3)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(net "unconnected-(Je1-Pad1)")
-		(uuid "87bef749-cb46-495b-ab34-c8de4362bd66")
-	)
-	(gr_rect
-		(start 33 3.5)
-		(end 58 5.5)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(net "unconnected-(Je1-Pad1)")
-		(uuid "fb5ed4c2-d7c9-4370-88c9-a9121c81cfbb")
-	)
 	(gr_line
 		(start 34 -19)
 		(end 34 -20)
@@ -4734,6 +4666,76 @@
 		)
 		(layer "F.Cu")
 		(uuid "9bd205c6-5e40-4064-93ae-b1f7e838902e")
+	)
+	(gr_rect
+		(start 35 -2.1)
+		(end 58 -2)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net "unconnected-(USB2-VCC-Pad1)")
+		(uuid "9451c38a-bf9e-4bb9-b813-25f599cf9304")
+	)
+	(gr_rect
+		(start 35 -1.45)
+		(end 58 -1.25)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net "unconnected-(USB2-VCC-Pad1)")
+		(uuid "52931680-c256-41b3-b071-8981def88285")
+	)
+	(gr_rect
+		(start 35 -0.45)
+		(end 58 -0.15)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "376bed3d-a8c1-46e6-997a-d21fa5e5e807")
+	)
+	(gr_rect
+		(start 35 0.4)
+		(end 58 0.9)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "d8ea69b4-6200-424a-a1b0-9c4c33db5fe2")
+	)
+	(gr_rect
+		(start 35 1.4)
+		(end 58 2.4)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net "unconnected-(Je1-Pad1)")
+		(uuid "87bef749-cb46-495b-ab34-c8de4362bd66")
+	)
+	(gr_rect
+		(start 35 2.9)
+		(end 58 4.9)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net "unconnected-(Je1-Pad1)")
+		(uuid "fb5ed4c2-d7c9-4370-88c9-a9121c81cfbb")
 	)
 	(gr_line
 		(start 35.56 10.16)
@@ -8949,6 +8951,78 @@
 			)
 		)
 	)
+	(gr_text "05\n\n"
+		(at 30 3.5 0)
+		(layer "F.SilkS")
+		(uuid "ff2cabde-b7ec-4fac-9505-ff4e875522af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1\n"
+		(at 30.5 3.5 0)
+		(layer "F.SilkS")
+		(uuid "6e9d00d0-a9df-4fb0-888c-24462be6c3ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "02\n"
+		(at 32 -1 0)
+		(layer "F.SilkS")
+		(uuid "fadd7236-937d-4100-a562-632aea2e17e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "03\n"
+		(at 32 0.5 0)
+		(layer "F.SilkS")
+		(uuid "0b445f24-1569-40f4-bf9e-30dec1325eeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2"
+		(at 33.5 4.5 0)
+		(layer "F.SilkS")
+		(uuid "12cf78bb-3381-45ef-8b40-547532db30e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "01"
+		(at 34 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "afe255f9-2304-4b17-8ce8-35b0c79f9fa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "135º"
 		(at 130.5 -9.5 0)
 		(layer "F.SilkS")
@@ -9019,6 +9093,90 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "1.5"
+		(at 117.5 1 0)
+		(layer "F.SilkS")
+		(uuid "ce5181e4-ec76-47c3-a7f8-14277589c8a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "03"
+		(at 118 -14 0)
+		(layer "F.SilkS")
+		(uuid "711867fe-85bf-410f-96fa-7a258ba51659")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "05"
+		(at 118 -11 0)
+		(layer "F.SilkS")
+		(uuid "049cbbe8-5563-4ec0-9471-59e55d404653")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "06"
+		(at 118 -8 0)
+		(layer "F.SilkS")
+		(uuid "86e2a19a-b202-4f5e-a908-e70a835c2ad2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "08"
+		(at 118 -5 0)
+		(layer "F.SilkS")
+		(uuid "0b68633d-44e3-41fe-b573-5a64047582de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "1"
+		(at 118 -2 0)
+		(layer "F.SilkS")
+		(uuid "f77f8afd-9e52-4171-a955-67d4d37874a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "2\n"
+		(at 118 4 0)
+		(layer "F.SilkS")
+		(uuid "fe7c3592-96fb-4050-866c-df4881e9cee8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
 		)
 	)
 	(gr_text "M2"
@@ -9128,88 +9286,17 @@
 			)
 		)
 	)
-	(gr_text "03"
-		(at 118 -13.5 270)
+	(gr_text "Vias"
+		(at 121.5 -12 0)
 		(layer "F.SilkS")
-		(uuid "711867fe-85bf-410f-96fa-7a258ba51659")
+		(uuid "41c4c5f4-bd62-4170-a35d-27cdfc6f71e1")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
+				(bold yes)
 			)
-			(justify top)
-		)
-	)
-	(gr_text "05"
-		(at 118 -10.5 270)
-		(layer "F.SilkS")
-		(uuid "049cbbe8-5563-4ec0-9471-59e55d404653")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify top)
-		)
-	)
-	(gr_text "06"
-		(at 118 -7.5 270)
-		(layer "F.SilkS")
-		(uuid "86e2a19a-b202-4f5e-a908-e70a835c2ad2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify top)
-		)
-	)
-	(gr_text "08"
-		(at 118 -4.5 270)
-		(layer "F.SilkS")
-		(uuid "0b68633d-44e3-41fe-b573-5a64047582de")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify top)
-		)
-	)
-	(gr_text "1"
-		(at 118 -1.5 270)
-		(layer "F.SilkS")
-		(uuid "f77f8afd-9e52-4171-a955-67d4d37874a9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify top)
-		)
-	)
-	(gr_text "1.5"
-		(at 118 1.5 270)
-		(layer "F.SilkS")
-		(uuid "ce5181e4-ec76-47c3-a7f8-14277589c8a9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify top)
-		)
-	)
-	(gr_text "2\n"
-		(at 118 4.5 270)
-		(layer "F.SilkS")
-		(uuid "fe7c3592-96fb-4050-866c-df4881e9cee8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify top)
+			(justify left bottom)
 		)
 	)
 	(gr_text "Stencils"
@@ -9251,18 +9338,45 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Vias"
-		(at 122 -14 270)
-		(layer "F.SilkS")
-		(uuid "41c4c5f4-bd62-4170-a35d-27cdfc6f71e1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
+	(segment
+		(start 46.5 0.65)
+		(end 33.85 0.65)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "")
+		(uuid "321519c6-d2f8-4154-9999-af749ea72dd8")
+	)
+	(segment
+		(start 46.5 -0.3)
+		(end 34.3 -0.3)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "")
+		(uuid "34260930-6919-4cfb-ab90-787cee601ef4")
+	)
+	(segment
+		(start 34.3 -0.3)
+		(end 34 0)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "")
+		(uuid "3fbe316d-6968-4525-8e38-8e37e66826c4")
+	)
+	(segment
+		(start 33 1.5)
+		(end 32.5 1.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "")
+		(uuid "4cb700e5-d163-42eb-ac9e-509255d450e3")
+	)
+	(segment
+		(start 33.85 0.65)
+		(end 33 1.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "")
+		(uuid "f38d16b0-0986-4c9f-a1ce-a25a8ed638cf")
 	)
 	(via
 		(at 120 -1.5)
@@ -9351,6 +9465,62 @@
 		(layers "F.Cu" "B.Cu")
 		(net "")
 		(uuid "ccaf9574-7e67-4704-88df-11bf18e96c39")
+	)
+	(segment
+		(start 34.5 -2.5)
+		(end 34.5 -3)
+		(width 0.1)
+		(layer "F.Cu")
+		(net "unconnected-(USB2-VCC-Pad1)")
+		(uuid "1ef4f28f-ee72-47c7-831b-5a4cf14d1e6f")
+	)
+	(segment
+		(start 46.5 -2.05)
+		(end 34.95 -2.05)
+		(width 0.1)
+		(layer "F.Cu")
+		(net "unconnected-(USB2-VCC-Pad1)")
+		(uuid "2ccc25b0-1ac6-4703-82f2-144b70a9dc16")
+	)
+	(segment
+		(start 46.5 -1.35)
+		(end 34.15 -1.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "unconnected-(USB2-VCC-Pad1)")
+		(uuid "76e2040f-2fee-43e2-add0-1a304d34b2a0")
+	)
+	(segment
+		(start 34.95 -2.05)
+		(end 34.5 -2.5)
+		(width 0.1)
+		(layer "F.Cu")
+		(net "unconnected-(USB2-VCC-Pad1)")
+		(uuid "f4ddaa75-c80e-4622-8648-341403490d61")
+	)
+	(segment
+		(start 46.5 1.9)
+		(end 34.1 1.9)
+		(width 1)
+		(layer "F.Cu")
+		(net "unconnected-(Je1-Pad1)")
+		(uuid "2acb0de7-74c1-4ee3-9f91-027a7488e4b5")
+	)
+	(segment
+		(start 34.1 1.9)
+		(end 33 3)
+		(width 1)
+		(layer "F.Cu")
+		(net "unconnected-(Je1-Pad1)")
+		(uuid "30cf9191-2785-4b8c-8938-5aeba14de0af")
+	)
+	(segment
+		(start 33 3)
+		(end 32 3)
+		(width 1)
+		(layer "F.Cu")
+		(net "unconnected-(Je1-Pad1)")
+		(uuid "f71e6dce-f083-4ecc-8646-741027080018")
 	)
 	(embedded_fonts no)
 )
