@@ -52,9 +52,9 @@ Here it is in Blender and in a STEP viewer:
 
 ## BOM
 
-|Item         |Link|Cost  |
-|-------------|----|------|
-|5x PCB       |N/A |25.94 |
-|Shipping     |N/A |3.3   |
-|Taxes        |N/A |3     |
-|Total Cost   |N/A |32.24 |
+|Item         |Cost  |
+|-------------|------|
+|5x PCB       |25.94 |
+|Shipping     |3.3   |
+|Taxes        |3     |
+|**Total Cost**   |32.24 |
