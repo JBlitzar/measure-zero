@@ -1,9 +1,10 @@
 # measure-zero
 
+An opinionated 300mm PCB ruler.
 
 ![](render/render1_cropped.png)
 
-An opinionated 300mm PCB ruler. It has:
+It has:
 
  - mm tick marks
  - quarter-inch tick marks 
