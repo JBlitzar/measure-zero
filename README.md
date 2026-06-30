@@ -42,9 +42,9 @@ It has:
 
  ![](doc/pcb2.png)
 
- ## A screenshot of a full 3D model with my project
- 
-Here it is in Blender and in a STEP viewer:
+ ## 3D Model Screenshots
+
+ Here it is in Blender and in a STEP viewer:
 
  ![](doc/blend.png)
  ![](doc/step.png)
@@ -52,7 +52,7 @@ Here it is in Blender and in a STEP viewer:
 
 ## BOM
 
-|Item         |Cost  |
+|Item         |Cost (USD)  |
 |-------------|------|
 |5x PCB       |25.94 |
 |Shipping     |3.3   |
