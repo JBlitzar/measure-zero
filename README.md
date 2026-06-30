@@ -47,9 +47,9 @@ An opinionated 300mm PCB ruler. It has:
 
 ## BOM
 
-|Item      |Link|Cost |Total cost:|
-|----------|----|-----|-----------|
-|PCB       |N/A |25.94|-          |
-|Shipping  |N/A |3.3  |-          |
-|Taxes     |N/A |3    |-          |
-|Total Cost|N/A |0    |32.24      |
+|Item      |Link|Cost  |
+|----------|----|------|
+|PCB       |N/A |25.94 |
+|Shipping  |N/A |3.3   |
+|Taxes     |N/A |3     |
+|Total Cost|N/A |32.24 |
